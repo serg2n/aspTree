@@ -1,0 +1,13 @@
+﻿@page
+@model aspTree.Pages.FactorialModel
+@{
+    ViewData["Title"] = "Factorial";
+}
+
+<h2>Factorial</h2>
+
+<h2>@Model.Message</h2>
+<form method="post">
+    <input type="number" name="number" />
+    <input type="submit" value="Send" />
+</form>
